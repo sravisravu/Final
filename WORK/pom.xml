@@ -1,63 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <parent>
-    <groupId>work.workproject_0_1</groupId>
-    <artifactId>WORK</artifactId>
-    <version>SNAPSHOT-0.1</version>
-  </parent>
-  <groupId>work.workproject_0_1</groupId>
-  <artifactId>generated-code</artifactId>
- 
-  <dependencies>
-    <!-- For generating source code -->
-    <dependency>
-      <groupId>work.workproject_0_1</groupId>
-      <artifactId>some-generation-jar</artifactId>
-      <version>1.0.0</version>
-      <scope>runtime</scope>
-    </dependency>
-  </dependencies>
- 
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>exec-maven-plugin</artifactId>
-        <executions>
-          <execution>
-            <id>generateCode</id>
-            <phase>generate-sources</phase>
-            <goals>
-              <goal>java</goal>
-            </goals>
-            <configuration>
-              <mainClass>work.workproject_0_1.generation.MainClass</mainClass>
-              <classpathScope>runtime</classpathScope>
-              <sourceRoot>${project.build.directory}/generated-sources/main/java</sourceRoot>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-      <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>build-helper-maven-plugin</artifactId>
-        <executions>
-          <execution>
-            <id>addtoSourceFolder</id>
-            <goals>
-              <goal>add-source</goal>
-            </goals>
-            <phase>process-sources</phase>
-            <configuration>
-              <sources>
-                <source>${project.build.directory}/generated-sources/generation_place</source>
-              </sources>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-    </plugins>
-  </build>
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>YOUR_GROUP</groupId>
+	<artifactId>WORK</artifactId>
+	<version>SNAPSHOT</version>
+	<name>WORK</name>
+	<packaging>pom</packaging>
+	<description>WORK ODT Project</description>
+
+	<build>
+		<defaultGoal>package</defaultGoal>
+		<finalName>${project.artifactId}</finalName>
+
+		<plugins>
+			<plugin>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<version>2.3</version>
+				<configuration>
+					<descriptors>
+						<descriptor>assembly.xml</descriptor>
+					</descriptors>
+				</configuration>
+				<executions>
+					<execution>
+						<id>make-assembly</id>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
 </project>
