@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcontainer:TestContainer xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:testcontainer="http://www.talend.com/testcontainer.ecore" xmi:id="_UD7_QPehEeayPI8rYj_KpA" defaultContext="Default" jobType="Standard" originalJobID="___39YPeHEeayPI8rYj_KpA" parentVersion="0.1">
+  <context xmi:id="_UD7_QfehEeayPI8rYj_KpA" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_UD7_QvehEeayPI8rYj_KpA" comment="" name="reference_file1" prompt="reference_file1?" promptNeeded="false" type="id_File" value="C:/Users/smailavaram/workspace/in.txt"/>
+  </context>
+  <parameters xmi:id="_UD7_Q_ehEeayPI8rYj_KpA">
+    <elementParameter xmi:id="_UD7_RPehEeayPI8rYj_KpA" field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter xmi:id="_UD7_RfehEeayPI8rYj_KpA" field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter xmi:id="_UD7_RvehEeayPI8rYj_KpA" field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter xmi:id="_UD7_R_ehEeayPI8rYj_KpA" field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter xmi:id="_UD7_SPehEeayPI8rYj_KpA" field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter xmi:id="_UD7_SfehEeayPI8rYj_KpA" field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter xmi:id="_UD7_SvehEeayPI8rYj_KpA" field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_UD7_S_ehEeayPI8rYj_KpA" field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_UD7_TPehEeayPI8rYj_KpA" field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter xmi:id="_UD7_TfehEeayPI8rYj_KpA" field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter xmi:id="_UD7_TvehEeayPI8rYj_KpA" field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter xmi:id="_UD7_T_ehEeayPI8rYj_KpA" field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_UD7_UPehEeayPI8rYj_KpA" field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter xmi:id="_UD7_UfehEeayPI8rYj_KpA" field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_UD7_UvehEeayPI8rYj_KpA" field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter xmi:id="_UD7_U_ehEeayPI8rYj_KpA" field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_UD7_VPehEeayPI8rYj_KpA" field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <elementParameter xmi:id="_UD7_VfehEeayPI8rYj_KpA" field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="false" show="false"/>
+    <elementParameter xmi:id="_UD7_VvehEeayPI8rYj_KpA" field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="false" show="false"/>
+    <elementParameter xmi:id="_UD7_V_ehEeayPI8rYj_KpA" field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter xmi:id="_UD7_WPehEeayPI8rYj_KpA" field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter xmi:id="_UD7_WfehEeayPI8rYj_KpA" field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter xmi:id="_UD7_WvehEeayPI8rYj_KpA" field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter xmi:id="_UD7_W_ehEeayPI8rYj_KpA" field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter xmi:id="_UD7_XPehEeayPI8rYj_KpA" field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;C:/Users/smailavaram/workspace/in.csv&quot;" show="false"/>
+    <elementParameter xmi:id="_UD7_XfehEeayPI8rYj_KpA" field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;" show="false"/>
+    <elementParameter xmi:id="_UD7_XvehEeayPI8rYj_KpA" field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter xmi:id="_UD7_X_ehEeayPI8rYj_KpA" field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="ORACLE_11" show="false"/>
+    <elementParameter xmi:id="_UD7_YPehEeayPI8rYj_KpA" field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_UD7_YfehEeayPI8rYj_KpA" field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter xmi:id="_UD7_YvehEeayPI8rYj_KpA" field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_UD7_Y_ehEeayPI8rYj_KpA" field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_UD7_ZPehEeayPI8rYj_KpA" field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_UD7_ZfehEeayPI8rYj_KpA" field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_UD7_ZvehEeayPI8rYj_KpA" field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_UD7_Z_ehEeayPI8rYj_KpA" field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_UD7_aPehEeayPI8rYj_KpA" field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_UD7_afehEeayPI8rYj_KpA" field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_UD7_avehEeayPI8rYj_KpA" field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter xmi:id="_UD7_a_ehEeayPI8rYj_KpA" field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_UD7_bPehEeayPI8rYj_KpA" field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_UD7_bfehEeayPI8rYj_KpA" field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_UD7_bvehEeayPI8rYj_KpA" field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning" show="false"/>
+    <elementParameter xmi:id="_UD7_b_ehEeayPI8rYj_KpA" field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
+    <elementParameter xmi:id="_UD7_cPehEeayPI8rYj_KpA" field="CHECK" name="PRINT_OPERATIONS" value="false" show="false"/>
+    <elementParameter xmi:id="_UD7_cfehEeayPI8rYj_KpA" field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
+    <elementParameter xmi:id="_UD7_cvehEeayPI8rYj_KpA" field="CHECK" name="DISABLE_WARNINGS" value="true" show="false"/>
+    <elementParameter xmi:id="_UD7_c_ehEeayPI8rYj_KpA" field="CHECK" name="DISABLE_INFO" value="true" show="false"/>
+    <elementParameter xmi:id="_UD7_dPehEeayPI8rYj_KpA" field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter xmi:id="_UD7_dfehEeayPI8rYj_KpA" field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter xmi:id="_UD7_dvehEeayPI8rYj_KpA" field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter xmi:id="_UD7_d_ehEeayPI8rYj_KpA" field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
+    <elementParameter xmi:id="_UD7_ePehEeayPI8rYj_KpA" field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
+    <elementParameter xmi:id="_UD7_efehEeayPI8rYj_KpA" field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Users/smailavaram/workspace/.metadata&quot;" show="false"/>
+    <elementParameter xmi:id="_UD7_evehEeayPI8rYj_KpA" field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
+    <elementParameter xmi:id="_UD7_e_ehEeayPI8rYj_KpA" field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
+    <elementParameter xmi:id="_UD7_fPehEeayPI8rYj_KpA" field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
+    <elementParameter xmi:id="_UD7_ffehEeayPI8rYj_KpA" field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
+    <elementParameter xmi:id="_UD7_fvehEeayPI8rYj_KpA" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter xmi:id="_UD7_f_ehEeayPI8rYj_KpA" field="CHECK" name="ON_DATABASE_FLAG" value="false" show="false"/>
+    <elementParameter xmi:id="_UD7_gPehEeayPI8rYj_KpA" field="CLOSED_LIST" name="DB_TYPE" value="tJDBCOutput" show="false"/>
+    <elementParameter xmi:id="_UD7_gfehEeayPI8rYj_KpA" field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11" show="false"/>
+    <elementParameter xmi:id="_UD7_gvehEeayPI8rYj_KpA" field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_UD7_g_ehEeayPI8rYj_KpA" field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter xmi:id="_UD7_hPehEeayPI8rYj_KpA" field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_UD7_hfehEeayPI8rYj_KpA" field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_UD7_hvehEeayPI8rYj_KpA" field="TEXT" name="PORT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_UD7_h_ehEeayPI8rYj_KpA" field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_UD7_iPehEeayPI8rYj_KpA" field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_UD7_ifehEeayPI8rYj_KpA" field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_UD7_ivehEeayPI8rYj_KpA" field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_UD7_i_ehEeayPI8rYj_KpA" field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_UD7_jPehEeayPI8rYj_KpA" field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_UD7_jfehEeayPI8rYj_KpA" field="PASSWORD" name="PASS" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter xmi:id="_UD7_jvehEeayPI8rYj_KpA" field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_UD7_j_ehEeayPI8rYj_KpA" field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_UD7_kPehEeayPI8rYj_KpA" field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_UD7_kfehEeayPI8rYj_KpA" field="DBTABLE" name="TABLE_METER" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_UD7_kvehEeayPI8rYj_KpA" field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true" show="false"/>
+    <elementParameter xmi:id="_UD7_k_ehEeayPI8rYj_KpA" field="CHECK" name="CATCH_USER_ERRORS" value="true" show="false"/>
+    <elementParameter xmi:id="_UD7_lPehEeayPI8rYj_KpA" field="CHECK" name="CATCH_USER_WARNING" value="true" show="false"/>
+    <elementParameter xmi:id="_UD7_lfehEeayPI8rYj_KpA" field="CHECK" name="CATCH_REALTIME_STATS" value="false" show="false"/>
+    <elementParameter xmi:id="_UD7_lvehEeayPI8rYj_KpA" field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
+    <elementParameter xmi:id="_UD7_l_ehEeayPI8rYj_KpA" field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
+    <elementParameter xmi:id="_UD7_mPehEeayPI8rYj_KpA" field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
+    <elementParameter xmi:id="_UD7_mfehEeayPI8rYj_KpA" field="TEXT" name="HEADER_CODE" value="" show="false"/>
+    <elementParameter xmi:id="_UD7_mvehEeayPI8rYj_KpA" field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
+    <elementParameter xmi:id="_UD7_m_ehEeayPI8rYj_KpA" field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
+    <elementParameter xmi:id="_UD7_nPehEeayPI8rYj_KpA" field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
+    <elementParameter xmi:id="_UD7_nfehEeayPI8rYj_KpA" field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
+    <elementParameter xmi:id="_UD7_nvehEeayPI8rYj_KpA" field="TEXT" name="FOOTER_CODE" value="" show="false"/>
+    <elementParameter xmi:id="_UD7_n_ehEeayPI8rYj_KpA" field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+    <routinesParameter xmi:id="_CLmEsvehEeayPI8rYj_KpA" id="_2OGhUfeHEeayPI8rYj_KpA" name="DataMasking"/>
+    <routinesParameter xmi:id="_CLmEs_ehEeayPI8rYj_KpA" id="_2OJkoPeHEeayPI8rYj_KpA" name="DataQuality"/>
+    <routinesParameter xmi:id="_CLmEtPehEeayPI8rYj_KpA" id="_2OLZ0PeHEeayPI8rYj_KpA" name="DataQualityDependencies"/>
+    <routinesParameter xmi:id="_CLmEtfehEeayPI8rYj_KpA" id="_2ON2EPeHEeayPI8rYj_KpA" name="DqStringHandling"/>
+    <routinesParameter xmi:id="_CLmEtvehEeayPI8rYj_KpA" id="_2OQSUPeHEeayPI8rYj_KpA" name="DQTechnical"/>
+    <routinesParameter xmi:id="_CLmEt_ehEeayPI8rYj_KpA" id="_2OSukPeHEeayPI8rYj_KpA" name="SQLike"/>
+    <routinesParameter xmi:id="_CLmEuPehEeayPI8rYj_KpA" id="_2OVK0PeHEeayPI8rYj_KpA" name="DataOperation"/>
+    <routinesParameter xmi:id="_CLmEufehEeayPI8rYj_KpA" id="_2OY1MPeHEeayPI8rYj_KpA" name="Mathematical"/>
+    <routinesParameter xmi:id="_CLmEuvehEeayPI8rYj_KpA" id="_2OcfkPeHEeayPI8rYj_KpA" name="Numeric"/>
+    <routinesParameter xmi:id="_CLmEu_ehEeayPI8rYj_KpA" id="_2OeUwPeHEeayPI8rYj_KpA" name="Relational"/>
+    <routinesParameter xmi:id="_CLmEvPehEeayPI8rYj_KpA" id="_2OgxAPeHEeayPI8rYj_KpA" name="StringHandling"/>
+    <routinesParameter xmi:id="_CLmEvfehEeayPI8rYj_KpA" id="_2Oj0UPeHEeayPI8rYj_KpA" name="TalendDataGenerator"/>
+    <routinesParameter xmi:id="_CLmEvvehEeayPI8rYj_KpA" id="_2OmQkPeHEeayPI8rYj_KpA" name="TalendDate"/>
+    <routinesParameter xmi:id="_CLmEv_ehEeayPI8rYj_KpA" id="_2OpT4PeHEeayPI8rYj_KpA" name="TalendString"/>
+  </parameters>
+  <node xmi:id="_UD7_oPehEeayPI8rYj_KpA" componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="832" posY="224">
+    <elementParameter xmi:id="_UD7_ofehEeayPI8rYj_KpA" field="TEXT" name="UNIQUE_NAME" value="tFileOutputDelimited_1" show="false"/>
+    <elementParameter xmi:id="_UD7_ovehEeayPI8rYj_KpA" field="CHECK" name="USESTREAM" value="false"/>
+    <elementParameter xmi:id="_UD7_o_ehEeayPI8rYj_KpA" field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
+    <elementParameter xmi:id="_UD7_pPehEeayPI8rYj_KpA" field="FILE" name="FILENAME" value="((String)globalMap.get(&quot;tCreateTemporaryFile_1_FILEPATH&quot;))"/>
+    <elementParameter xmi:id="_UD7_pfehEeayPI8rYj_KpA" field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter xmi:id="_UD7_pvehEeayPI8rYj_KpA" field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true" show="false"/>
+    <elementParameter xmi:id="_UD7_p_ehEeayPI8rYj_KpA" field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter xmi:id="_UD7_qPehEeayPI8rYj_KpA" field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
+    <elementParameter xmi:id="_UD7_qfehEeayPI8rYj_KpA" field="CHECK" name="APPEND" value="false"/>
+    <elementParameter xmi:id="_UD7_qvehEeayPI8rYj_KpA" field="CHECK" name="INCLUDEHEADER" value="false"/>
+    <elementParameter xmi:id="_UD7_q_ehEeayPI8rYj_KpA" field="CHECK" name="COMPRESS" value="false"/>
+    <elementParameter xmi:id="_UD7_rPehEeayPI8rYj_KpA" field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter xmi:id="_UD7_rfehEeayPI8rYj_KpA" field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter xmi:id="_UD7_rvehEeayPI8rYj_KpA" field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter xmi:id="_UD7_r_ehEeayPI8rYj_KpA" field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter xmi:id="_UD7_sPehEeayPI8rYj_KpA" field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_UD7_sfehEeayPI8rYj_KpA" field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_UD7_svehEeayPI8rYj_KpA" field="CHECK" name="CREATE" value="true"/>
+    <elementParameter xmi:id="_UD7_s_ehEeayPI8rYj_KpA" field="CHECK" name="SPLIT" value="false"/>
+    <elementParameter xmi:id="_UD7_tPehEeayPI8rYj_KpA" field="TEXT" name="SPLIT_EVERY" value="1000" show="false"/>
+    <elementParameter xmi:id="_UD7_tfehEeayPI8rYj_KpA" field="CHECK" name="FLUSHONROW" value="false"/>
+    <elementParameter xmi:id="_UD7_tvehEeayPI8rYj_KpA" field="TEXT" name="FLUSHONROW_NUM" value="1" show="false"/>
+    <elementParameter xmi:id="_UD7_t_ehEeayPI8rYj_KpA" field="CHECK" name="ROW_MODE" value="false"/>
+    <elementParameter xmi:id="_UD7_uPehEeayPI8rYj_KpA" field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter xmi:id="_UD7_ufehEeayPI8rYj_KpA" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter xmi:id="_UD7_uvehEeayPI8rYj_KpA" field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
+    <elementParameter xmi:id="_UD7_u_ehEeayPI8rYj_KpA" field="TEXT" name="SCHEMA_OPT_NUM" value="90" show="false"/>
+    <elementParameter xmi:id="_UD7_vPehEeayPI8rYj_KpA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata xmi:id="_UD7_vfehEeayPI8rYj_KpA" connector="FLOW" name="tFileOutputDelimited_1">
+      <column xmi:id="_UD7_vvehEeayPI8rYj_KpA" comment="" defaultValue="" key="true" length="10" name="DateKey" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD7_v_ehEeayPI8rYj_KpA" comment="" key="false" length="23" name="DayDate" nullable="false" pattern="" precision="3" sourceType="DATETIME" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD7_wPehEeayPI8rYj_KpA" comment="" key="false" length="100" name="DateDescription" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD7_wfehEeayPI8rYj_KpA" comment="" key="false" length="10" name="DateUSA" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD7_wvehEeayPI8rYj_KpA" comment="" key="false" length="10" name="DayOfWeek" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mUPehEeayPI8rYj_KpA" comment="" key="false" length="15" name="MonthName" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mUfehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="10" name="DayNumInWeek" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mUvehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="10" name="DayNumInMonth" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mU_ehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="10" name="DayNumInYear" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mVPehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="10" name="MonthNumInYear" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mVfehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="10" name="WeekNumInYear" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mVvehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="10" name="CalYear" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mV_ehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="10" name="CalYearMonth" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mWPehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="23" name="MonthBeginDate" nullable="false" pattern="" precision="3" sourceType="DATETIME" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mWfehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="23" name="WeekBeginDate" nullable="false" pattern="" precision="3" sourceType="DATETIME" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mWvehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="23" name="WeekEndDate" nullable="false" pattern="" precision="3" sourceType="DATETIME" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mW_ehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="30" name="BusinessDayFlag" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mXPehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="10" name="FiscalWeek" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mXfehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="10" name="FiscalMonth" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mXvehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="10" name="FiscalQuarter" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mX_ehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="10" name="FiscalYear" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mYPehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="30" name="FirstDayInMonthFlag" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mYfehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="30" name="LastDayInMonthFlag" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mYvehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="30" name="FirstDayFiscalMonthFlag" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mY_ehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="10" name="WeekSeqNum" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mZPehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="20" name="FiscalMonthName" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mZfehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="10" name="FiscalYearMonth" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mZvehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="30" name="PostalDayFlag" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mZ_ehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="7" name="CalQuarter" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8maPehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="3" name="CalWeek" nullable="true" pattern="" precision="0" sourceType="SMALLINT" type="id_Short" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node xmi:id="_UD8mafehEeayPI8rYj_KpA" componentName="tCreateTemporaryFile" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="128">
+    <elementParameter xmi:id="_UD8mavehEeayPI8rYj_KpA" field="TEXT" name="UNIQUE_NAME" value="tCreateTemporaryFile_1" show="false"/>
+    <elementParameter xmi:id="_UD8ma_ehEeayPI8rYj_KpA" field="CHECK" name="REMOVE" value="true"/>
+    <elementParameter xmi:id="_UD8mbPehEeayPI8rYj_KpA" field="CHECK" name="USE_DEFAULT_DIR" value="true"/>
+    <elementParameter xmi:id="_UD8mbfehEeayPI8rYj_KpA" field="DIRECTORY" name="DIRECTORY" value="&quot;C:/Users/smailavaram/workspace&quot;" show="false"/>
+    <elementParameter xmi:id="_UD8mbvehEeayPI8rYj_KpA" field="LABEL" name="INFO_RANGE" value="the temporary file name should include template &quot;XXXX&quot;."/>
+    <elementParameter xmi:id="_UD8mb_ehEeayPI8rYj_KpA" field="TEXT" name="TEMPLATE" value="&quot;talend_XXXX&quot;"/>
+    <elementParameter xmi:id="_UD8mcPehEeayPI8rYj_KpA" field="TEXT" name="SUFFIX" value="&quot;tmp&quot;"/>
+    <elementParameter xmi:id="_UD8mcfehEeayPI8rYj_KpA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_UD8mcvehEeayPI8rYj_KpA" componentName="tFileCompare" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="480" posY="352">
+    <elementParameter xmi:id="_UD8mc_ehEeayPI8rYj_KpA" field="TEXT" name="UNIQUE_NAME" value="tFileCompare_1" show="false"/>
+    <elementParameter xmi:id="_UD8mdPehEeayPI8rYj_KpA" field="CLOSED_LIST" name="COMPARISON_MODE" value="TEXT_CMP"/>
+    <elementParameter xmi:id="_UD8mdfehEeayPI8rYj_KpA" field="FILE" name="FILE" value="((String)globalMap.get(&quot;tCreateTemporaryFile_1_FILEPATH&quot;))"/>
+    <elementParameter xmi:id="_UD8mdvehEeayPI8rYj_KpA" field="FILE" name="FILE_REF" value="context.reference_file1"/>
+    <elementParameter xmi:id="_UD8md_ehEeayPI8rYj_KpA" field="TEXT" name="DIFFER_MESSAGE" value="&quot;[job &quot; + jobName + &quot;] Files differ&quot;"/>
+    <elementParameter xmi:id="_UD8mePehEeayPI8rYj_KpA" field="TEXT" name="NO_DIFFER_MESSAGE" value="&quot;[job &quot; + jobName + &quot;] Files are identical&quot;"/>
+    <elementParameter xmi:id="_UD8mefehEeayPI8rYj_KpA" field="CHECK" name="PRINT" value="true"/>
+    <elementParameter xmi:id="_UD8mevehEeayPI8rYj_KpA" field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter xmi:id="_UD8me_ehEeayPI8rYj_KpA" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter xmi:id="_UD8mfPehEeayPI8rYj_KpA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata xmi:id="_UD8mffehEeayPI8rYj_KpA" connector="FLOW" name="tFileCompare_1">
+      <column xmi:id="_UD8mfvehEeayPI8rYj_KpA" defaultValue="" key="false" length="255" name="file" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mf_ehEeayPI8rYj_KpA" defaultValue="" key="false" length="255" name="file_ref" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mgPehEeayPI8rYj_KpA" defaultValue="" key="false" length="0" name="moment" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mgfehEeayPI8rYj_KpA" defaultValue="" key="false" length="50" name="job" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mgvehEeayPI8rYj_KpA" defaultValue="" key="false" length="255" name="component" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mg_ehEeayPI8rYj_KpA" defaultValue="" key="false" length="1" name="differ" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mhPehEeayPI8rYj_KpA" defaultValue="" key="false" length="255" name="message" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node xmi:id="_UD8mhfehEeayPI8rYj_KpA" componentName="tAssert" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="576" posY="352">
+    <elementParameter xmi:id="_UD8mhvehEeayPI8rYj_KpA" field="TEXT" name="UNIQUE_NAME" value="tAssert_1" show="false"/>
+    <elementParameter xmi:id="_UD8mh_ehEeayPI8rYj_KpA" field="TEXT" name="DESCRIPTION" value="&quot;File from reference differs from input&quot;"/>
+    <elementParameter xmi:id="_UD8miPehEeayPI8rYj_KpA" field="MEMO_JAVA" name="EXPRESSION" value="((Boolean)globalMap.get(&quot;tFileCompare_1_DIFFERENCE&quot;))"/>
+    <elementParameter xmi:id="_UD8mifehEeayPI8rYj_KpA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata xmi:id="_UD8mivehEeayPI8rYj_KpA" connector="FLOW" name="tAssert_1"/>
+  </node>
+  <connection xmi:id="_UD8mi_ehEeayPI8rYj_KpA" connectorName="FLOW" label="row2" lineStyle="0" metaname="OUTPUT_1" offsetLabelX="0" offsetLabelY="0" source="OUTPUT_1" target="tFileOutputDelimited_1">
+    <elementParameter xmi:id="_UD8mjPehEeayPI8rYj_KpA" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter xmi:id="_UD8mjfehEeayPI8rYj_KpA" field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
+  </connection>
+  <connection xmi:id="_UD8mjvehEeayPI8rYj_KpA" connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tCreateTemporaryFile_1" offsetLabelX="0" offsetLabelY="0" source="tCreateTemporaryFile_1" target="tMSSqlInput_1">
+    <elementParameter xmi:id="_UD8mj_ehEeayPI8rYj_KpA" field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
+  </connection>
+  <connection xmi:id="_UD8mkPehEeayPI8rYj_KpA" connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileCompare_1" offsetLabelX="0" offsetLabelY="0" source="tFileCompare_1" target="tAssert_1">
+    <elementParameter xmi:id="_UD8mkfehEeayPI8rYj_KpA" field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk3" show="false"/>
+  </connection>
+  <connection xmi:id="_UD8mkvehEeayPI8rYj_KpA" connectorName="FLOW" label="row1" lineStyle="0" metaname="tMSSqlInput_1" offsetLabelX="0" offsetLabelY="0" source="tMSSqlInput_1" target="OUTPUT_1">
+    <elementParameter xmi:id="_UD8mk_ehEeayPI8rYj_KpA" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter xmi:id="_UD8mlPehEeayPI8rYj_KpA" field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
+  </connection>
+  <connection xmi:id="_UD8mlfehEeayPI8rYj_KpA" connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tMSSqlInput_1" offsetLabelX="0" offsetLabelY="0" source="tMSSqlInput_1" target="tFileCompare_1">
+    <elementParameter xmi:id="_UD8mlvehEeayPI8rYj_KpA" field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2" show="false"/>
+  </connection>
+  <note xmi:id="_UD8ml_ehEeayPI8rYj_KpA" opaque="true" posX="480" posY="0" sizeHeight="64" sizeWidth="360" text="This Test Case has been created automatically&#xD;&#xA;please setup all the datasets"/>
+  <subjob xmi:id="_UD8mmPehEeayPI8rYj_KpA">
+    <elementParameter xmi:id="_UD8mmfehEeayPI8rYj_KpA" field="TEXT" name="UNIQUE_NAME" value="tMSSqlInput_1" show="false"/>
+    <elementParameter xmi:id="_UD8mmvehEeayPI8rYj_KpA" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_UD8mm_ehEeayPI8rYj_KpA" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_UD8mnPehEeayPI8rYj_KpA">
+    <elementParameter xmi:id="_UD8mnfehEeayPI8rYj_KpA" field="TEXT" name="UNIQUE_NAME" value="tCreateTemporaryFile_1" show="false"/>
+    <elementParameter xmi:id="_UD8mnvehEeayPI8rYj_KpA" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_UD8mn_ehEeayPI8rYj_KpA" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_UD8moPehEeayPI8rYj_KpA">
+    <elementParameter xmi:id="_UD8mofehEeayPI8rYj_KpA" field="TEXT" name="UNIQUE_NAME" value="tFileCompare_1" show="false"/>
+    <elementParameter xmi:id="_UD8movehEeayPI8rYj_KpA" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_UD8mo_ehEeayPI8rYj_KpA" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_UD8mpPehEeayPI8rYj_KpA">
+    <elementParameter xmi:id="_UD8mpfehEeayPI8rYj_KpA" field="TEXT" name="UNIQUE_NAME" value="tAssert_1" show="false"/>
+    <elementParameter xmi:id="_UD8mpvehEeayPI8rYj_KpA" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_UD8mp_ehEeayPI8rYj_KpA" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <testContainerNodes xmi:id="_UD8mqfehEeayPI8rYj_KpA" componentName="OUTPUT" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="736" posY="224">
+    <elementParameter xmi:id="_UD8mqvehEeayPI8rYj_KpA" field="TEXT" name="UNIQUE_NAME" value="OUTPUT_1"/>
+    <elementParameter xmi:id="_UD8mq_ehEeayPI8rYj_KpA" field="CHECK" name="STARTABLE" value="false" show="false"/>
+    <elementParameter xmi:id="_UD8mrPehEeayPI8rYj_KpA" field="CHECK" name="START" value="false" show="false"/>
+    <elementParameter xmi:id="_UD8mrfehEeayPI8rYj_KpA" field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+    <elementParameter xmi:id="_UD8mrvehEeayPI8rYj_KpA" field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
+    <elementParameter xmi:id="_UD8mr_ehEeayPI8rYj_KpA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_UD8msPehEeayPI8rYj_KpA" field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter xmi:id="_UD8msfehEeayPI8rYj_KpA" field="MEMO" name="COMMENT" value=""/>
+    <metadata xmi:id="_UD8msvehEeayPI8rYj_KpA" connector="FLOW" name="OUTPUT_1">
+      <column xmi:id="_UD8ms_ehEeayPI8rYj_KpA" comment="" defaultValue="" key="true" length="10" name="DateKey" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mtPehEeayPI8rYj_KpA" comment="" key="false" length="23" name="DayDate" nullable="false" pattern="" precision="3" sourceType="DATETIME" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mtfehEeayPI8rYj_KpA" comment="" key="false" length="100" name="DateDescription" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mtvehEeayPI8rYj_KpA" comment="" key="false" length="10" name="DateUSA" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mt_ehEeayPI8rYj_KpA" comment="" key="false" length="10" name="DayOfWeek" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8muPehEeayPI8rYj_KpA" comment="" key="false" length="15" name="MonthName" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mufehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="10" name="DayNumInWeek" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8muvehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="10" name="DayNumInMonth" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mu_ehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="10" name="DayNumInYear" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mvPehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="10" name="MonthNumInYear" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mvfehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="10" name="WeekNumInYear" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mvvehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="10" name="CalYear" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mv_ehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="10" name="CalYearMonth" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mwPehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="23" name="MonthBeginDate" nullable="false" pattern="" precision="3" sourceType="DATETIME" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mwfehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="23" name="WeekBeginDate" nullable="false" pattern="" precision="3" sourceType="DATETIME" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mwvehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="23" name="WeekEndDate" nullable="false" pattern="" precision="3" sourceType="DATETIME" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mw_ehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="30" name="BusinessDayFlag" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mxPehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="10" name="FiscalWeek" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mxfehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="10" name="FiscalMonth" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mxvehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="10" name="FiscalQuarter" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mx_ehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="10" name="FiscalYear" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8myPehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="30" name="FirstDayInMonthFlag" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8myfehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="30" name="LastDayInMonthFlag" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8myvehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="30" name="FirstDayFiscalMonthFlag" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8my_ehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="10" name="WeekSeqNum" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mzPehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="20" name="FiscalMonthName" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mzfehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="10" name="FiscalYearMonth" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mzvehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="30" name="PostalDayFlag" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8mz_ehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="7" name="CalQuarter" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_UD8m0PehEeayPI8rYj_KpA" comment="" defaultValue="" key="false" length="3" name="CalWeek" nullable="true" pattern="" precision="0" sourceType="SMALLINT" type="id_Short" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </testContainerNodes>
+  <OriginalNodes xmi:id="_UD8m0fehEeayPI8rYj_KpA" uniqueName="tMSSqlInput_1" posX="480" posY="256" start="true"/>
+  <testInstanceList xmi:id="_CZDR4PehEeayPI8rYj_KpA" name="Default" contextInstance="Default" displayName="Default" forbidDelete="true" testContainerID="_CLhzQPehEeayPI8rYj_KpA">
+    <testDatas xmi:id="_CZD48PehEeayPI8rYj_KpA" paramemterName="reference_file1" name="reference_file1"/>
+  </testInstanceList>
+</testcontainer:TestContainer>
